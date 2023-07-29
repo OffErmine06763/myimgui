@@ -5,8 +5,6 @@ project "ImGui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
-    buildoptions "/MP"
-
 	files
 	{
 		"imconfig.h",
